@@ -6,6 +6,7 @@ mov CX,4
 mov DI,0
 dongu:
 mov AL,sayilar+DI
+cbw
 DIV sayilar2+DI
 mov kalan+DI,AH
 inc DI
